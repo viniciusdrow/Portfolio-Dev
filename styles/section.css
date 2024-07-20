@@ -1,0 +1,149 @@
+#project {
+    max-width: 1040px;
+    margin: 72px 120px 144px 120px;
+    margin: auto;
+    margin-bottom: 144px;
+    
+}
+
+.intro {
+  margin-bottom: 56px;  
+}
+
+.intro h2 {
+    margin-top: 8px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 24px;
+    
+    
+    
+    
+}
+
+.card {
+    width: 330px;
+    height: 280px;
+    background-color: var(--text-color-gray-300);
+    padding: 12px;
+    border-radius: 12px;
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+    }
+}
+
+.card:hover {
+    border: 1.5px solid var(--Base-gray-400, #878EA1);
+}
+
+.description {
+    margin-top: 20px;
+    text-align: start;
+    h3 {
+        font: var(--title-sm);
+        color: var(--text-color-gray-600);
+    }
+
+    p {
+       font: var(--text-sm);
+       color: var(--text-color-gray-500);
+       margin-top: 8px;
+    }
+}
+
+.services {
+    width: 100%;
+    margin: 72px 120px 144px 120px;
+    margin: auto;
+    padding: 88px;
+    background-color: var(--text-color-gray-100);
+}
+
+.works {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 888px;
+    gap: 2px;
+    margin: auto;
+}
+
+.work {
+    margin: auto;
+
+    text-align: start;
+    width: 280px;
+    height: 155px;
+    border-radius: 12px;
+    border: 2px solid var(--text-color-gray-200);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.work h3 {
+    font: var(--title-sm);
+    color: var(--text-color-gray-600);
+}
+
+.work p {
+    font: var(--text-sm);
+    color: var(--text-color-gray-500);
+}
+
+.contact {
+    padding: 128px 120px 200px 120px;
+    background: url(../assets/Background_Contacts.png) lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.contact-info {
+    span {
+        color: var(--text-color-purple);
+    }
+    p {
+        margin-top: 8px;
+        margin-bottom: 48px;
+        font: var(--text-md);
+    }
+}
+
+.contact button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 400px;
+    background: var(--text-color-gray-300);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+
+    
+}
+
+.contact button:hover {
+    border: 1.5px solid var(--Main-Blue, #3996DB);
+    
+}
+
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    span {
+        font: var(--text-md);
+        color: var(--text-color-gray-500);
+    }
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-red: #E3646E;
+    --text-color-purple: #BB72E9;
+    --text-color-gray-100: #0D0E11;
+    --text-color-gray-200: #16181D;
+    --text-color-gray-300: #292C34;
+    --text-color-gray-400: #878EA1;
+    --text-color-gray-500: #C0C4CE;
+    --text-color-gray-600: #E2E4E9;
+
+    --hover-color: #3996DB;
+
+    --font-family: "Asap", sans-serif;
+    --font-family-inconsolata: "Inconsolata", sans-serif;
+    --font-family-maven-pro: "Maven Pro", sans-serif;
+
+    --title-lg: 700 56px/120% var(--font-family);
+    --title-md: 700 24px/120% var(--font-family);
+    --title-sm: 700 16px/120% var(--font-family);
+    --subtitle: 400 20px/120% var(--font-family-inconsolata);
+    --text-md: 400 16px/140% var(--font-family-maven-pro);
+    --text-sm: 400 14px/140% var(--font-family-maven-pro)
+}
+
+body{
+    width: 100%;
+    text-align: center;
+    background-color: var(--text-color-gray-200);
+    
+}
+
+.container {
+    background: url(../assets/Background_Intro.png) lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    font: var(--subtitle);
+    color: var(--text-color-gray-500);
+    span {
+        color: var(--text-color-red);
+    }
+}
+
+h1 {
+    font: var(--title-lg);
+    color: var(--text-color-gray-600);
+    margin-block: 8px 20px;
+}
+
+p {
+    font: var(--text-sm);
+    color: var(--text-color-gray-400);
+    margin-bottom: 80px;  
+}
+
+h2 {
+   font: var(--title-md);
+   color: var(--text-color-gray-600);
+}

@@ -1,0 +1,37 @@
+header {
+   
+    margin: 120px 163px 57px 163px;
+    display: block;
+    justify-content: center;  
+}
+
+.avatar {
+    margin-bottom: 56px ;
+}
+
+.header {
+    
+    /* max-width: 680px; */
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font: var(--text-md);
+    color: var(--text-color-gray-500);
+    padding: 8px 16px;
+}
+
+.tag  {
+    display: flex;
+    gap: 8px;
+    border-radius: 999px;
+    background-color: var(--text-color-gray-300);
+    padding: 8px 16px;
+    font: var(--text-md); 
+}
+
+.frame {
+    margin-block: 94px 57px;
+}
